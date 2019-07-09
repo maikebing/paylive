@@ -31,6 +31,11 @@ namespace paylive
                 new WxService(),
                 new AliService()
             });
+            services.AddAuthentication().AddCookie(a=>   
+            {
+                a.LoginPath = new PathString("/Account/Login");
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,14 +48,7 @@ namespace paylive
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseCookieAuthentication(new CookieAuthenticationOptions
-            {
-                AuthenticationScheme = "Cookie",
-                LoginPath = new PathString("/Account/Login"),
-                AutomaticAuthenticate = true,
-                AutomaticChallenge = true
-            });
-
+           
             app.UseStaticFiles();
 
             app.UseMvc(routes =>

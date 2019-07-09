@@ -18,7 +18,7 @@
     "paylive": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+      "launchUrl": "http://localhost:5000/Account",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
