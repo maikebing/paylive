@@ -3,3 +3,12 @@
 ################################################################################
 
 /paylive/.vs/paylive
+/paylive/Backup
+/paylive/src/paylive/bin/Debug/netcoreapp2.2
+/paylive/src/paylive/obj
+/paylive/src/paylive.alipay/bin/Debug/netcoreapp2.2
+/paylive/src/paylive.alipay/obj
+/paylive/src/paylive.core/bin/Debug/netstandard2.0
+/paylive/src/paylive.core/obj
+/paylive/src/paylive.wxpay/bin/Debug/netcoreapp2.2
+/paylive/src/paylive.wxpay/obj

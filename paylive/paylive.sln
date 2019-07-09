@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6411317E-F3C0-421F-9BB0-E8C24B8845E6}"
 EndProject
@@ -10,13 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "paylive", "src\paylive\paylive.xproj", "{4AA69FBF-30F5-40B7-BF70-E6FE104DD0EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "paylive", "src\paylive\paylive.csproj", "{4AA69FBF-30F5-40B7-BF70-E6FE104DD0EE}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "paylive.core", "src\paylive.core\paylive.core.xproj", "{70397F1B-A14E-4FCC-BA02-9AE105656E6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "paylive.core", "src\paylive.core\paylive.core.csproj", "{70397F1B-A14E-4FCC-BA02-9AE105656E6C}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "paylive.alipay", "src\paylive.alipay\paylive.alipay.xproj", "{F7E28280-1DBC-49F8-803A-A4C27F20A264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "paylive.alipay", "src\paylive.alipay\paylive.alipay.csproj", "{F7E28280-1DBC-49F8-803A-A4C27F20A264}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "paylive.wxpay", "src\paylive.wxpay\paylive.wxpay.xproj", "{943D3019-B95B-4B12-964B-C5B65FB46539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "paylive.wxpay", "src\paylive.wxpay\paylive.wxpay.csproj", "{943D3019-B95B-4B12-964B-C5B65FB46539}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,5 +49,8 @@ Global
 		{70397F1B-A14E-4FCC-BA02-9AE105656E6C} = {6411317E-F3C0-421F-9BB0-E8C24B8845E6}
 		{F7E28280-1DBC-49F8-803A-A4C27F20A264} = {6411317E-F3C0-421F-9BB0-E8C24B8845E6}
 		{943D3019-B95B-4B12-964B-C5B65FB46539} = {6411317E-F3C0-421F-9BB0-E8C24B8845E6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6715D606-7752-4EF9-9196-0B66C7C0EA88}
 	EndGlobalSection
 EndGlobal
